@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.active {
+  color: #de8544 !important;
+}
+
+.nav-link {
+  transition: color ease 0.5s;
+}
+
+.nav-link:hover {
+  color: #de8544 !important;
+}
+
+.lgin {
+  background-color: #de8544;
+  border-radius: 50px;
+  color: rgb(235, 235, 235) !important;
+  transition: all ease-in-out 0.55s;
+  /* transition: background-color ease 1s; */
+}
+
+.lgin:hover {
+  color: rgb(0, 0, 0) !important;
+  background-color: #ff984e;
+}
+
+.imgback {
+  object-fit: cover;
+}
+
+h3 {
+  color: #de8544 !important;
+}
+
+input:focus + label {
+  color: #de8544;
+}
+
+.form-control {
+  /* color: #de8544; */
+  border-color: #de8544;
+}
+
+.linkc {
+  color: #de8544;
+  text-decoration: none;
+  transition: color ease 0.6s;
+}
+
+.linkc:hover {
+  color: #6d513c;
+}
+
+.btn-cfds {
+  background-color: #de8544;
+  color: rgb(235, 235, 235) !important;
+  transition: all ease-in-out 0.55s;
+  /* transition: padding ease-in-out 0.55s; */
+  padding: 0.7vh 4vw;
+}
+
+.btn-cfds:hover {
+  color: rgb(0, 0, 0) !important;
+  background-color: #ff984e;
+  padding: 0.7vh 5vw;
+}
+
+.card-img-top {
+  height: 27vh;
+  max-width: 100%;
+  background-size: cover;
+}
+
+.btn-order {
+  background-color: #de8544;
+  color: rgb(235, 235, 235) !important;
+  transition: all ease-in-out 0.55s;
+  /* transition: padding ease-in-out 0.55s; */
+}
+
+.btn-order:hover {
+  color: rgb(0, 0, 0) !important;
+  background-color: #ff984e;
+}
+
+.nav-pills .nav-link {
+  color: black;
+}
+
+.nav-pills .nav-link:hover {
+  color:#de8544;
+}
+
+
